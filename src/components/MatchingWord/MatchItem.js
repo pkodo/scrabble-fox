@@ -35,7 +35,7 @@ const MatchItem = (props) => {
       <div className="match-item__description">
         <h2>{props.word}</h2>
         <button className="match-item__price" onClick={GetDefinition}>
-          Get Definition
+          Definition
         </button>
         <div className="match-item__price">{props.points}</div>
         <PopUp

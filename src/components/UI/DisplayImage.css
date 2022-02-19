@@ -10,6 +10,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 250px;
+  width: 50%;
+  max-width: 300px;
+  min-width: 200px;
   height: auto;
 }

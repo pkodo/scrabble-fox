@@ -23,7 +23,7 @@ const LetterForm = (props) => {
     <form onSubmit={submitHandler}>
       <div className="new-letter__controls">
         <div className="new-letter__control">
-          <label>Insert your letters..</label>
+          <label>Enter your letters and start searching:</label>
         </div>
         <div className="new-letter__control">
           <input

@@ -10,11 +10,12 @@
 
 .inserted-letters {
   font-size: 1.5rem;
-  align-items: center;
-  padding: 2rem;
+  text-align: center;
   flex: 1;
-  margin: auto;
-  width: 45rem;
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 650px;
+  min-width: 200px;
   color: white;
 }
 

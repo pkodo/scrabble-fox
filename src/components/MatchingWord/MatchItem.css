@@ -22,7 +22,7 @@
   color: #3a3a3a;
   font-size: 1rem;
   flex: 1;
-  margin: 0 1rem;
+  margin: 0 0rem;
   color: white;
 }
 
@@ -59,13 +59,15 @@
 .match-item button {
   font: inherit;
   cursor: pointer;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   border: 1px solid #ffffff;
   background-color: #40005d;
   color: white;
+  min-width: 107;
+  height: 47px;
   border-radius: 12px;
-  margin-right: 1rem;
-  margin-left: 2rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .match-item button:hover,
