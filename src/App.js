@@ -6,7 +6,7 @@ import { dictionary_en } from "./Dictionary_official_en";
 import Matches from "./components/MatchingWord/Matches";
 import DisplayInsertedLetters from "./components/MatchingWord/DisplayInsertedLetters";
 
-//let language = "en";
+import CookieConsent from "react-cookie-consent";
 
 let match = [];
 let inserted_letters;
@@ -99,6 +99,14 @@ function App() {
       <NewLetters onAddLetters={addLetterHandler} />
       <DisplayInsertedLetters letters={inserted_letters} />
       <Matches items={new_match} letters={inserted_letters} />
+      <CookieConsent
+        debug={true}
+        style={{ background: "#1f1f1f", textAlign: "left" }}
+        buttonStyle={{ color: "#000", background: "#fff", fontSize: "14px" }}
+        expires={365}
+      >
+        This site uses cookies for Google Analytics.
+      </CookieConsent>
     </div>
   );
 }
